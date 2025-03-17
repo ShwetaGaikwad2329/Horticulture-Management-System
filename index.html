@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horticulture Desk</title>
+    <style>
+       
+
+
+    .header{
+            height: 200px;
+            /*background-color: aqua;*/
+            justify-content: space-evenly;
+        }
+    .heading{
+        text-align: center;
+        color: red;
+       /* background-color: yellow;*/
+        height: 75px;
+        width: 400px;
+        font-weight: bold;
+        font-size:xx-large;
+        margin-left: 400px;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        gap: 30px;
+        display: inline-block;
+        
+
+        
+        
+    }
+    .header img{
+        border-radius: 50px;
+        float: left;
+        width: 75px;
+        height: 75px;
+        margin-top:20px;
+        margin-left: 5px;
+        display: inline;
+        /*background-color:pink;*/
+        justify-content: space-between;
+        
+    }
+    .logo{
+        margin-top: 20px;
+        width: 75px;
+        display:initial;
+       /* background-color: blueviolet;*/
+    }
+    .searchbox{
+        float: right;
+        margin-top: 20px;
+    }
+    nav{
+        display: flex;
+        justify-content:center;
+        background-color:antiquewhite;
+        margin-top: 40px;
+        margin-left:10px;
+        margin-right: 10px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    
+    li{
+        list-style-type: none;
+        padding:0;
+        margin:0;
+        display: inline;
+        padding-left: 80px;
+        
+    }
+    li:hover{
+        background-color: darkgoldenrod;
+        
+    }
+     li a{
+        text-decoration: none;
+    }
+    section{
+        padding-top: 20px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    section main{
+        width: 600px;
+        height:450px;
+        background-color: none;
+    }
+    main h1{
+        font-size: larger;
+        color: brown;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-left: 35%;
+        padding-top: 20px;
+        display: inline-block;
+    }
+    main p{
+        font-size: large;
+        font-weight: lighter;
+        padding-left: 25%;
+        padding-top: 2%;
+        display: inline-block;
+    }
+    .formone{
+        background-color:lightgreen;
+        margin-left: 25%;
+        margin-right: 60%;
+        padding-left: 2%;
+        padding-bottom:15%;
+        width: 300px;
+        margin-bottom: 20px;
+        height: 200px;
+        padding-top:0;
+        
+     }
+    
+
+
+     .fcontainer{
+        background-color: gray;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        border-radius: 20px 20px 20px 20px;
+        
+     }
+     .fcontainer p{
+        display: inline;
+        padding-left: 120px;
+    }
+     .fcontainer h1{
+        font-size: medium;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+        display: inline-block;
+     }
+     
+    </style>
+    
+    <link rel="Icon" href="iconImage.jpg">
+</head>
+<body style="background-image: url(bg2.jpg); background-repeat:no-repeat; background-size:100% 100%; background-attachment:fixed;">
+    <!--for overall body section put a background image-->
+
+<header class="header"><!--In header section nav var created-->
+    <div class="heading"><p>Horticulture Department</p></div><!--heading-->
+    <div class="logo"><img src="TreeImage.jpg"></div>
+    <div class="searchbox">
+        <form role="search">  <!-- this is optional : role=search......browser know which operation going to perform-->
+            <input type="text" placeholder=" How can I help you?">  <!--Search-->
+            <button>Search</button>
+            </form>
+     </div>
+     <nav><!--navigation bar in unordered list-->
+        <ul>
+            <li><a href="home.html" target="_self">Home</a></li>
+            <li><a href="services.html">Our services</a></li>
+           
+            <li><a href="Achievement.html">Achievement</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+            
+        </ul>
+     </nav>
+</header>
+<section><!--section container : create login form-->
+    <main>
+        <h1>Welcome to our World</h1>
+        <p>To Explore Beauty of Nature please register</p>
+         <form class="formone">
+            <h1 class="two">Login Page</h1><br>
+            <label for="">Username</label><br>
+            <input type="text" placeholder="Enter your username"><br><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Password should be 8 char"><br><br>
+            <button class="btnlogin">Log In</button><br><br>
+            <a href="">ForgottenPassword?</a>
+            <hr>
+            <a href="">Create New Account</a>
+
+         </form>
+    </main>
+</section>
+<footer><!--footer-->
+    <div class="fcontainer">
+    
+<h1>Connect with Us : </h1>
+<p>Email:Hortidesk@gmail.com</p>
+<p>Phone:94*******</p>
+<p>Copyrights &copy; All Rights Reserved</p>
+
+        </div>
+
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>

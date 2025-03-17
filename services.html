@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our services</title>
+    <link rel="Icon" href="iconImage.jpg">
+    <style>
+        .header{
+            height: 200px;
+            /*background-color: aqua;*/
+            justify-content: space-evenly;
+        }
+    .heading{
+        text-align: center;
+        color: red;
+       /* background-color: yellow;*/
+        height: 75px;
+        width: 400px;
+        font-weight: bold;
+        font-size:xx-large;
+        margin-left: 400px;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        gap: 30px;
+        display: inline-block;
+        
+
+        
+        
+    }
+    .header img{
+        border-radius: 50px;
+        float: left;
+        width: 75px;
+        height: 75px;
+        margin-top:20px;
+        margin-left: 5px;
+        display: inline;
+        /*background-color:pink;*/
+        justify-content: space-between;
+        
+    }
+    .logo{
+        margin-top: 20px;
+        width: 75px;
+        display:initial;
+       /* background-color: blueviolet;*/
+    }
+    .searchbox{
+        float: right;
+        margin-top: 20px;
+    }
+
+        #container1{
+            background-color:darkseagreen;
+            display: grid; /*diplay the item in grid such as row and column*/
+            grid-template-columns: auto auto auto auto auto; /*no of column= no.of auto max upto 12*/
+            justify-content: space-evenly;
+            gap: 30px;
+            height:800px;
+            padding-top: 30px;
+            
+        
+        }
+        @media screen and (max-width: 600px){
+          #container1{
+            display: flex;
+            flex-wrap: wrap;/* wrap the website as per device but we need to provide display:flex*/
+            background-color: palevioletred;  
+          }  
+        }
+        #container2{
+            background-color:darkseagreen;
+            display: grid; /*diplay the item in grid such as row and column*/
+            grid-template-columns: auto auto auto auto auto; /*no of column= no.of auto*/
+            justify-content: space-evenly;
+            gap: 30px;
+            height:800px;
+            padding-top: 30px;
+            
+            
+        }
+        @media screen and (max-width: 600px){
+          #container2{
+            display: flex;
+            flex-wrap: wrap;/* wrap the website as per device but we need to provide display:flex*/
+            background-color: palevioletred;  
+          }  
+        }
+        #container3{
+            background-color:darkseagreen;
+            display: grid; /*diplay the item in grid such as row and column*/
+            grid-template-columns: auto auto auto auto auto; /*no of column= no.of auto*/
+            justify-content: space-evenly;
+            gap: 30px;
+            height:800px;
+            padding-top: 30px;
+            
+            
+        }
+        @media screen and (max-width: 600px){
+          #container3{
+            display: flex;
+            flex-wrap: wrap;/* wrap the website as per device but we need to provide display:flex*/
+            background-color: palevioletred;  
+          }  
+        }
+        #container4{
+            background-color:darkseagreen;
+            display: grid; /*diplay the item in grid such as row and column*/
+            grid-template-columns: auto auto auto auto auto; /*no of column= no.of auto*/
+            justify-content: space-evenly;
+            gap: 30px;
+            height:800px;
+            padding-top: 30px;
+            
+            
+        }
+        @media screen and (max-width: 600px){
+          #container4{
+            display: flex;
+            flex-wrap: wrap;/* wrap the website as per device but we need to provide display:flex*/
+            background-color: palevioletred;  
+          }  
+        }
+        
+    
+        #item {
+            background-color: yellow;
+            width: 150px;
+            height: 150px;
+            padding:0;
+            margin:0;
+            border-radius: 5px 5px 5px 5px;
+            margin-top: 5px;
+        }
+        #item img{
+            width: 150px;
+            height: 150px;
+            border-radius: 5px 5px 5px 5px;
+            margin: 0;
+            padding: 0;
+        }
+        .heading2{
+            width:100%;
+            background-color:darkolivegreen;
+            height: 60px;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-large;
+            color:white;
+            font-weight: 20px;
+            margin-left: 45%;
+            font-style: italic;
+            padding-top: 10px;
+        }
+        h3{
+            display: inline-block;
+            padding-left: 150px;
+        }
+        h3:hover{
+            background-color: darkseagreen;
+            
+        
+        }
+        .fcontainer{
+            background-color: gray;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            border-radius: 20px 20px 20px 20px;
+            
+         }
+         .fcontainer p{
+            display: inline;
+            padding-left: 120px;
+    
+         }
+           
+         .fcontainer h1{
+            font-size: medium;
+            font-family:Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            display: inline-block;
+            margin-left: 10px;
+         }
+    </style>
+</head>
+<body>
+    <header class="header"><!--In header section nav var created-->
+        <div class="heading"><p>Horticulture Department</p></div><!--heading-->
+        <div class="logo"><img src="TreeImage.jpg"></div>
+        <div class="searchbox">
+            <form role="search">  <!-- this is optional : role=search......browser know which operation going to perform-->
+                <input type="text" placeholder=" How can I help you?">  <!--Search-->
+                <button>Search</button>
+                </form>
+         </div>
+
+    <div class="heading2"><h1>Our Products</h1></div>
+    <hr>
+    <h3><a href="#container1" target="_parent">1)Flowerring Plants</a></h3>
+    <h3><a href="#container2" target="_parent">2)Fruits Plants</a></h3>
+    <h3><a href="#container3" target="_parent">3)Vegetable Plants</a></h3>
+    <h3><a href="#container4" target="_parent">4)Bonsai Trees</a></h3>
+    <hr>
+    <hr>
+    <h2>-------------------------------------------------------------------------------Flowers Plants-------------------------------------------------------------------</h2>
+    <hr>
+    <div id="container1">
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Rose"><img src="rose.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Jasmine"><img src="jasmin.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Orchid"><img src="orchid.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Hibiscus"><img src="hibiscus.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Common_sunflower"><img src="Sunflower.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Dahlia"><img src="dehliya.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Clematis"><img src="leather_flower.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Narcissus_(plant)"><img src="daffodil.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Spathiphyllum"><img src="peacelily.jpg"></a></div>
+    
+    <div id="item"><a href="https://en.wikipedia.org/wiki/Anthurium"><img src="laceleaf.jpg"></a></div>
+    </div>
+    <hr>
+    <h2>-------------------------------------------------------------------------------Fruits Plants-----------------------------------------------------------------------</h2>
+    <hr>
+    <div id="container2">
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Peach"><img src="peach.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Pineapple"><img src="pineapple.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Apple"><img src="apple.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Strawberry"><img src="strawberry.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Syzygium_cumini"><img src="Jambhul_5.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Salak"><img src="snakefruit.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Avocado"><img src="avacado.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Plum"><img src="plum.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Cherry"><img src="cherry.jpg"></a></div>
+    
+    <div id="item"><a href="https://en.wikipedia.org/wiki/Fig"><img src="fig1.jpg"></a></div>
+    </div>
+    <hr>
+    <h2>------------------------------------------------------------------------Vegetable Plants Plants----------------------------------------------------------------</h2>
+    <hr>
+<div id="container3">
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Brassica_oleracea"><img src="cabbage.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Cauliflower"><img src="cauliflower.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Chili_pepper"><img src="chillipaper.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Sweet_potato"><img src="sweetpatatos.JPG"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Durian"><img src="durian.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Cucumber"><img src="cucumber.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Luffa_acutangula"><img src="ridgeguard.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Tomato"><img src="tomato.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Trichosanthes_cucumerina"><img src="snakeguard.jpg"></a></div>
+        <div id="item"><a href="https://https://en.wikipedia.org/wiki/Calabash"><img src="snakeguard.jpg"></a></div>
+    
+    
+</div>
+<hr>
+<h2>------------------------------------------------------------------------Bonsai Tree Plants---------------------------------------------------------------------</h2>
+    <hr>
+<div id="container4">
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="jade.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="Ulmus parvifolia.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="formal upright.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="bonsai.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="bonsai2.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="bonsai3.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="bonsai4.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="bonsai5.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="bonsai6.jpg"></a></div>
+        <div id="item"><a href="https://en.wikipedia.org/wiki/Bonsai#Bonsai_artists"><img src="bonsai7.jpg"></a></div>
+    
+    
+</div>
+<hr>
+
+
+<footer><!--footer-->
+    <div class="fcontainer">
+       
+<h1>Connect with Us : </h1>
+<p>Email:Hortidesk@gmail.com</p>
+<p>Phone:94*******</p>
+<p>Copyrights &copy; All Rights Reserved</p>
+
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
